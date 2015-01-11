@@ -1,0 +1,36 @@
+{
+  "author": "Talles L <talleslasmar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tallesl/sanitize-cep/issues"
+  },
+  "description": "sanitizes CEPs (Brazil's ZIP codes)",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
+  "homepage": "https://github.com/tallesl/sanitize-cep",
+  "keywords": [
+    "brazil",
+    "cep",
+    "code",
+    "endereco",
+    "sanitize",
+    "zip"
+  ],
+  "license": "Fair",
+  "main": "./lib/sanitize-cep.js",
+  "name": "sanitize-cep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallesl/sanitize-cep.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
