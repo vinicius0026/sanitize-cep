@@ -33,3 +33,11 @@ it('should sanitize null        to null', function () {
   assert.equal(sanitizeCep(null), null)
 })
 
+it('should sanitize \'30.130-010\' to \'30130010\'', function () {
+  assert.equal(sanitizeCep('30.130-010'), '30130010')
+})
+
+it('should sanitize \' 30130-010 \' to \'30130010\'', function () {
+  assert.equal(sanitizeCep(' 30130-010'), '30130010')
+});
+
